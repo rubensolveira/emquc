@@ -6,7 +6,7 @@ class EMQUC {
     // funcionCoste: "ecm" | "crossentropy"
     constructor(arrayCapas, activacion, activacionOutput, funcionCoste, learningRate) {
         if (arguments.length != 5) {
-            throw new Error("Debes indicar bien los parametros. Ej: new NN([2,4,6],'sigmoid','softmax', 'ecm', 0.01)");
+            throw new Error("Debes indicar bien los parametros. Ej: new EMQUC([2,4,6],'sigmoid','softmax', 'ecm', 0.01)");
         }
 
         //Estos arrays tendran las matrices de las dimensiones que se indiquen en 'arrayCapas'
