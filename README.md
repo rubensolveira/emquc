@@ -12,9 +12,9 @@ EMQUC permite crear una red neuronal multicapa y totalmente conectada, con funci
 Para crear la red se necesitan 5 parámetros: <br>
  - ArrayCapas: Un array indicando el número de capas de la red, donde el primer elemento es el número de inputs y el último elemento el número de outputs.
  - FuncionActivacion: "sigmoid" | "tanh" | "relu" | "leakyrelu"; Indicarar las funciones de activacion para todas las capas de la red
- -FuncionActivacionOutput: "talcual" | "softmax"; Si se indica 'talcual' en la ultima capa se aplicará la FuncionActivacion 
- -FuncionCoste: "ecm" | "crossentropy"
- -LearningRate: numero
+ - FuncionActivacionOutput: "talcual" | "softmax"; Si se indica 'talcual' en la ultima capa se aplicará la FuncionActivacion 
+ - FuncionCoste: "ecm" | "crossentropy"
+ - LearningRate: numero
  <br><br>
  Ejemplo: let red = new EMQUC([4, 10, 20, 3], "tanh", "softmax", "ecm", 0.05);
  <br>
