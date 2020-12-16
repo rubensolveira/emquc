@@ -25,3 +25,6 @@ Para crear la red se necesitan 5 parámetros: <br>
  Ejemplo (seguimos con el ejemplo anterior): red.entrenar([0.15, 0.72, 0.98, 0.12], [0, 1, 0]);
  <br>
  Para predecir nuevos inputs: console.log( red.predecir([0.2, 0.4, 0.63, 0.1]);
+ <br>
+ <br>
+ En honor y dedicación a Moreno. Gracias Moreno, sin ti esto jamás fuese posible.
